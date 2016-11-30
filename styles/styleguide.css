@@ -26,6 +26,9 @@ button {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1rem;
   background-color: #94c840;
+  color: #523e33;
+  padding: 5px;
+  text-align: center;
 }
 
 .explanation {
