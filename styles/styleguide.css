@@ -1,0 +1,35 @@
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2.2rem;
+  color: #523e33;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2rem;
+  color: #523e33;
+}
+
+.class-description {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2rem;
+  color: #523e33;
+}
+
+p.non-discrimination-text {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1rem;
+  color: #523e33;
+}
+
+button {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1rem;
+  background-color: #94c840;
+}
+
+.explanation {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2rem;
+  color: #523e33;
+}
