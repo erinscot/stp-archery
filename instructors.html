@@ -5,32 +5,68 @@
     <title>Instructors</title>
  </head>
   <body>
+    <!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <title>Straight to the Point Archery</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/instructors.css">
+    <link rel="stylesheet" href="styles/html5reset.css" media="all">
+	<link rel="stylesheet" href="styles/col.css" media="all">
+    <link rel="stylesheet" href="styles/3cols.css" media="all">
+	<link rel="stylesheet" href="styles/6cols.css" media="all">
+ </head>
+  <body>
     <header>
-      <figure class="top-header-logo">
-        <img alt="logo" src="images/logo.jpg">
+      <figure>
+        <img class="top-header-logo" alt="logo" src="images/logo2.jpg">
       </figure>
-      <nav class="top-right-nav">
+      <nav id="top-right-nav">
          <ul>
-          <li>529 Nock Point Lane Tacoma, WA 98412</li>
-          <li>archery-education@example.com</li>
-          <li>(253) 555-1010</li>
+          <li class="address">529 Nock Point Lane</li>
+          <li class="address">Tacoma, WA 98412</li>
+          <li class="address">archery-education@example.com</li>
+          <li class="address">(253) 555-1010</li>
         </ul>
       </nav>
-      <nav class="full-navbar">
+      <nav id="full-navbar">
         <ul>
-          <li><a id="home" class="navbar-item" href="index.html">Home</a></li>  
-          <li><a id="about" class="navbar-item" href="about.html">About</a></li>
-          <li><a id="schedule" class="navbar-item" href="schedule.html">Schedule</a></li>  
-          <li><a id="instructors" class="navbar-item" href="instructors.html">Instructors</a></li>
-          <li><a id="waivers" class="navbar-item" href="waivers.html">Waivers</a></li>  
-          <li><a id="faq" class="navbar-item" href="faq.html">FAQ</a></li>
+          <li class="navbar-item"><a id="home"  href="index.html">Home</a></li>  
+          <li class="navbar-item"><a id="about" href="about.html">About</a></li>
+          <li class="navbar-item"><a id="schedule" href="schedule.html">Schedule</a></li>  
+          <li class="navbar-item"><a id="instructors" href="instructors.html">Instructors</a></li>
+          <li class="navbar-item"><a id="waivers" href="waivers.html">Waivers</a></li>  
+          <li class="navbar-item"><a id="faq" class="navbar-item" href="faq.html">FAQ</a></li>
         </ul>
       </nav>
+      <!--<div class="section group">
+          <div class="col span_1_of_6 home">
+            <p><a id="home" href="index.html">Home</a></p>  
+          </div>
+          <div class="col span_1_of_6">
+            <p><a id="about" href="about.html">About</a></p>  
+          </div>
+          <div class="col span_1_of_6">
+            <p><a id="schedule" href="schedule.html">Schedule</a></p>  
+          </div>
+          <div class="col span_1_of_6">
+            <p><a id="instructors" href="instructors.html">Instructors</a></p>  
+          </div>
+          <div class="col span_1_of_6">
+            <p><a id="waivers" href="waivers.html">Waivers</a></p>  
+          </div>
+          <div class="col span_1_of_6">
+            <p><a id="faq" class="navbar-item" href="faq.html">FAQ</a></p>  
+          </div>
+      </div>-->
     </header>
     <section>
-      <h2>Instructors</h2>
-        <img alt="photo of Derek Jenkins" src="images/derek-jenkins-instructor.jpg">
-        <p class="instructor-bio">Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows, and making custom leather products.
+      <!--<h2 class="instructors-header">Instructors</h2>-->
+        <img id="derek" alt="photo of Derek Jenkins" src="images/derek-jenkins-instructor.jpg">
+        <p class="derek-instructor-bio">Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows, and making custom leather products.
         </p>
         <img alt="photo of Amy Smith" src="images/amy-smith-instructor.jpg">
         <p class="instructor-bio">Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness and has been a YMCA group exercise and personal trainer for over 18 years.
