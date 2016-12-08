@@ -17,6 +17,7 @@ body {
   margin-bottom: 0rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  margin-top: 1rem;
   float: left;
 }
 
@@ -76,19 +77,28 @@ ul {
   font-size: 3rem;
   text-align: center;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .col.span_1_of_3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 1rem;
-  border: solid 1px;
+  text-align: center;
 }
 
-/*.footer {
-  background: #523e33;
+.lessons-heading {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
-.copyright-footer {
+footer {
+  clear: both;
+  margin-top: 2rem;
+}
+
+/*.copyright-footer {
   background: #523e33;
   color: white;
 }

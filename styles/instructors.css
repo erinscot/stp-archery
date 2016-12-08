@@ -51,31 +51,22 @@ ul {
     overflow: hidden;
 }
 
-/*.col.span_1_of_6 > p {
-  clear: both;
-  font-size: 2rem;
-  text-align: center;
-  padding-bottom: 1rem;
-}*/
-
-
 img {
   height: 180px;
 }
 
-#derek {
-  float:left;
-}
-
-.derek-instructor-bio {
-  float: right;
+.instructors-header {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .footer {
   background: #523e33;
 }
 
-.copyright-footer {
+/*.copyright-footer {
   background: #523e33;
   color: white;
 }
@@ -113,7 +104,7 @@ img {
 
 h5 {
   color: white;
-}
+}*/
 
 
 @media screen and (max-width:600px){
